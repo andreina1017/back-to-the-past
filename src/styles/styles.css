@@ -10,7 +10,7 @@ body {
 
 .main-header {
     background-color: #333;
-    color: white;
+    color: rgb(173, 16, 139);
     padding: 20px;
     text-align: center;
 }
@@ -50,4 +50,46 @@ nav ul li a {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina espacios entre bordes */
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
 }
