@@ -1,71 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyecto Phoenix</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-  </head>
-  <body>
-    <header class="main-header">
-      <h1>Bienvenidos al Proyecto Phoenix</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Sobre Nosotros</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </nav>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturaleza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Explorando la Naturaleza</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#sections">Secciones</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <main class="main-content">
-      <section class="purpose-section">
-        <h2>Nuestro Propósito</h2>
-        <p>
-          El Proyecto Phoenix busca conectar a las personas a través de una red
-          de conocimiento y colaboración.
-        </p>
 
-      </section>
+    <main class=" contenedor-main">
+        <section id="about" class="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>La naturaleza es un susurro constante de belleza y serenidad. Es la melodía del viento entre los árboles, el abrazo cálido del sol en la piel y el aroma fresco de la tierra después de la lluvia. Cada rincón del bosque, cada ola del mar y cada estrella en el cielo es un recordatorio de la gr.
 
-      <section class="about-section">
-        <h2>Sobre Nosotros</h2>
-        <p>
-          Somos un equipo comprometido en brindar soluciones innovadoras a
-          problemas complejos.
-        </p>
-      </section>
-      <section class="projects-section">
-        <h2>Nuestros Proyectos</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Nombre del Proyecto</th>
-              <th>Descripción</th>
-              <th>Estado</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>phoenix</td>
-              <td>Phoenix, una plataforma creada para conectar a las personas en una red de conocimiento y comunicación. Sin embargo, por razones desconocidas, el proyecto quedó incompleto, con varios errores y decisiones discutibles que deben corregirse..</td>
-              <td>En Desarrollo</td>
-            </tr>
-            <tr>
-              <td>mision</td>
-              <td>La misión es clara: deben retroceder en el tiempo a través de la tecnología de control de versiones GIT, localizar un commit crítico en el cual el proyecto comenzó a perder su dirección, y corregirlo..</td>
-              <td>Completo</td>
-            </tr>
-            <tr>
-              <td>desafios</td>
-              <td>Su tarea es revisar la estructura del sitio, mejorar la semántica, y modernizar el diseño utilizando las tecnologías actuales como Flexbox y Grid.</td>
-              <td>En Planificación</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+                En la naturaleza, encontramos la paz que tanto buscamos, una invitación a respirar profundo y sentirnos parte de algo más vasto y armonioso. Es un refugio, un hogar que siempre está ahí, esperándonos con los brazos abiertos, listo para recordarnos que, en el fondo, también somos.. Aquí exploramos su belleza y biodiversidad.</p>
+            <button onclick="window.open('https://www.ecologiaverde.com/que-es-la-flora-y-fauna-1618.html', '_blank')">Descubre más</button>
+        </section>
+
+        <section id="sections">
+            <h2>Secciones</h2>
+            <div class="grid-container">
+                <div class="grid-item">Bosques</div>
+                <div class="grid-item">Montañas</div>
+                <div class="grid-item">Ríos</div>
+                <div class="grid-item">Océanos</div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Galería de Imágenes</h2>
+            <figure>
+                <img src="imagenes/images.jpg" alt="Imagen de un bosque">
+                <figcaption>Un hermoso bosque</figcaption>
+            </figure>
+            <figure>
+                <img src="imagen2/images.jpg" alt="Imagen de una montaña">
+                <figcaption>Montañas majestuosas</figcaption>
+            </figure>
+            <figure>
+                <img src="imagen3/images.jpg" alt="Imagen de un océano">
+                <figcaption>Las tranquilas olas del océano</figcaption>
+            </figure>
+        </section>
+
+        <section id="videos">
+            <h2>Videos Educativos</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Tm29H5RLl0s?si=6TZRtsBQb4b8OABH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="facts">
+            <h2>Datos Interesantes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Elemento Natural</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bosques</td>
+                        <td>Áreas densas de árboles y vegetación.</td>
+                    </tr>
+                    <tr>
+                        <td>Montañas</td>
+                        <td>Elevaciones significativas del terreno.</td>
+                    </tr>
+                    <tr>
+                        <td>Ríos</td>
+                        <td>Cursos de agua dulce que fluyen hacia mares u océanos.</td>
+                    </tr>
+                    <tr>
+                        <td>Océanos</td>
+                        <td>Grandes cuerpos de agua salada que cubren la mayor parte de la Tierra.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
-    <footer class="main-footer">
-      <p>© 2024 Proyecto Phoenix. Todos los derechos reservados.</p>
+
+    <footer>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>¡Únete a nosotros en nuestra misión de conservación! Contáctanos en:<a href="mailto:aarevalob@ufpso.edu.co" >aarevalob@ufpso.edu.co</a></p>
+        </section>
+        <p>&copy; 2024 La Naturaleza. Todos los derechos reservados.</p>
     </footer>
-  </body>
+</body>
 </html>
